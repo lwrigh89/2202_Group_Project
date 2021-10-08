@@ -1,5 +1,10 @@
 let digits = [];
-
+let zero = [" _ ","| |","|_|"];
+let one = ["   ","|  ","|  "];
+let two = [" _ "," _|","|_ "];
+let three = [" _ "," _|"," _|"];
+let four = ["   ", "|_|", "  |"];
+let five = [" _ ", "|_ ", ""];
 function printDoubleDigit(value){
     switch(value){
         case (value = 0): function printSingles(){
