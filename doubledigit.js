@@ -27,7 +27,7 @@ function printDoubleDigit(value){
 
         case (value == 2):
             function printTwinties(){
-        
+          
             }
             break;
         
@@ -117,7 +117,5 @@ function printDoubleDigit(value){
             
     }    
 }
-
-
 printDoubleDigit(8);
 printDoubleDigit(9);
