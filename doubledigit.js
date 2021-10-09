@@ -46,7 +46,7 @@ function printDoubleDigit(value){
                    console.log(six[i] + " " + digits[f][i])
                }
            }
-        
+            printSixties();
         }
         
         case (value = 7):function printSeventies(){
