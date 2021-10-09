@@ -59,9 +59,22 @@ function printEighties(){
 }
         
 function printNinties(){
+    let nineties = "";
+    let firstDigit = digits[9];
+    for (i=0; i < digits.length; i++){
+        
+        let secondDigit = digits[i];
+        
+        for (j = 0; j < 3; j++){
+            nineties += firstDigit[j] + secondDigit[j];
+            nineties += "\n"; 
+        }
+   }     
+   console.log(nineties);
         
 }
 
 if (!module.parent){
     printEighties();
+    printNinties();
 }
